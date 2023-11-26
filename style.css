@@ -22,3 +22,206 @@
 } */
 
 /* Limiting height */
+/* h2, p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;}
+    h2 {
+        color: #0088dd;
+        border-bottom: 1px solid #0088dd;}
+    p{
+       max-height: 250px;
+       border: 1px solid red;
+    } */
+
+    /* overflow */
+    /* p{
+        max-height: 50px;
+        border: 1px solid red;
+        overflow: scroll;
+    } */
+
+    /* BORDER WIDTH */
+    /* one by one */
+    /* P{
+        border-top-width: 1px;
+        border-right-width: 2px;
+        border-bottom-width: 3px;
+        border-left-width: 4px;
+    } */
+    /* shorthand */
+    /* p{
+      border-style: solid;
+      border-top-width: 1px 2px 3px 4px; /*clockwise- top-right-bottom-left
+    }/*
+
+    /* border style */
+    /* p{
+       /* border-style: solid; */
+        /* border-style: dotted; */
+        /* border-style: dashed; */
+        /* border-style: double; */
+        /* border-style: groove; */
+        /* border-style: inset; */
+        /* border-style: outset;
+        /* border-style: hidden; */
+        /* border-color: red; */
+    /* }  */
+/* BORDER SHORTHAND */
+    /* p{
+        border: 2px solid red;
+    } */
+
+/* PADDING */
+/* p{
+    border: 2px solid red;
+    padding: 10px 20px 30px 40px;
+} */
+/* p{
+    border: 2px solid red;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+} */
+
+/* MARGIN */
+/* p{
+    border: 2px solid red;
+    margin: 120px 4px 50px 10px;
+    margin-top: 100px;
+} */
+/* p{
+    border: 2px solid red;
+}
+#p2{
+    margin-top: 200px;
+} */
+/* CENTERING CONTENT */
+/* p{
+    border: 2px solid red;
+    width: 300px;
+    padding: 50px;
+}
+.example {
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* change inline block */
+/* li{
+    display: inline;
+    margin: 10px;
+}
+li.coming-soon{
+    display: none;
+} */
+
+/* hidding boxes */
+/* li{
+    display: inline;
+    margin: 10px;
+}
+li.coming-soon{
+    visibility: hidden;
+}  */
+
+/* border images */
+/* .one{
+    border: 20px solid transparent;
+    padding: 10px;
+    border-image: url(images/border.png) 30 round;
+}
+.two{
+    border: 20px solid transparent;
+    padding: 10px;
+    border-image: url(images/border.png) 30 stretch;
+}
+.three{
+    border: 20px solid transparent;
+    padding: 10px;
+    border-image: url(images/border.png) 30 repeat;
+} */
+
+/* Box Shadows */
+/* .one{
+    width: 200px;
+    box-shadow: -5px -5px red;
+}
+.two{
+    width: 200px;
+    box-shadow: -5px 5px 5px red;
+}
+.three{
+    width: 200px;
+    box-shadow:  0 0 10px 5px red;
+} */
+
+/* rounded corners */
+/* p{ */
+ /* text-align: center;
+    width: 100px;
+    border: 2px solid red;
+    margin-left: auto;
+    margin-right: auto; */
+    /* padding: 20px; */
+    /* background-color: black;
+    color: white; */
+    /* border-radius: 10px 40px 25px 80px; */
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    /* border-radius: 100px; */
+   /* background-color: white;
+   color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    background-color: black;
+} */
+
+/* img{
+    width: 200px;
+    height: 200px;
+     border: 2px solid black;
+     border-radius: 50%;
+} */
+
+body {
+    font-size: 80%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color: #efefef;}
+    #page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #ffffff;}
+    #logo {
+    width: 150px;
+    margin: 10px auto 25px auto;}
+    ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;}
+    li {
+    display: inline;
+    margin: 0px 3px;}
+    p {
+    text-align: center;
+    width: 600px; 
+    margin: 20px auto 20px auto; 
+    font-weight: normal;}
+    a {
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 6px 18px 5px 18px;}
+        a:hover, a.on {
+        color: #cc3333;
+        background-color: #ffffff;}
